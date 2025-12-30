@@ -28,3 +28,5 @@ The Operators
 The Control-Flow
     The "Leaky" Switch Case: The entire switch statement shares one single block scope. Even though the cases look separate, they are technically in the same "room."
     To fix this without renaming variables, you must explicitly give the case its own scope by adding curly braces {}.
+
+    switch case always strictly equals

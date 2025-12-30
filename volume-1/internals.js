@@ -34,3 +34,21 @@ console.log(displayScore); // Output: 10 (Wrong! User actually scored 0)
 // ?? only looks for null or undefined.
 let correctScore = userScore ?? 10;
 console.log(correctScore); // Output: 0 (Correct!)
+
+
+//switch strictly checks the condition
+let colorNumber = 1;
+let color = ["noColor","orange","green","pink"]
+let colorLetter = "A"
+let colors = {A:"noColor",B:"orange",C:"green",D:"pink"}
+
+function getColor(colorCode){
+switch(colorCode){
+    case "A": return color[0]
+    case "b": return color[1]
+    case "c": return color[2]
+    case "d": return color[3]
+}
+}
+
+console.log(getColor(colorLetter))
